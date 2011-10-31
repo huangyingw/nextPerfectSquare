@@ -9,7 +9,7 @@ int nextPerfectSquare(int n)
   int result=n+1;
   while (1)
   {
-    for (int i=0;i<result;i++)
+    for (int i=0;i<=result;i++)
     {
       if (result==i*i)
         return result;
