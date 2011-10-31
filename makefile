@@ -1,5 +1,5 @@
-OBJECTS = lebowski.exe
-LOCFLAGS = -I../lebowski
+OBJECTS = nextPerfectSquare.exe
+LOCFLAGS = -I../nextPerfectSquare
 CC = g++
 CCFLAGS = -ansi -W -Wall -lstdc++
 LOCFLAGS =

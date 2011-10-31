@@ -1,2 +1,2 @@
 make -B \
-&& ./lebowski.exe
+&& ./nextPerfectSquare.exe
