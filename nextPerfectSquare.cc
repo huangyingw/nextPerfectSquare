@@ -4,13 +4,18 @@
 
 using namespace std;
 
-/*
-   For example, the array {4, 3, 1, 8, 5, 1, 1, 1} is a Lebowski array because:
-   a. 4 is even and 4 = 3 + 1 (3 and 1 are odd) 
-   b. 8 is even and 8 = 5 + 1 + 1 + 1 (5 and 1 are odd) 
-   */
 int nextPerfectSquare(int n)
 {
+  int result=n+1;
+  while (1)
+  {
+    for (int i=0;i<result;i++)
+    {
+      if (result==i*i)
+        return result;
+    }
+    result++;
+  }
   return 0;
 }
 int main() 
