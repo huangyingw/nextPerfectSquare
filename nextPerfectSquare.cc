@@ -9,7 +9,7 @@ int nextPerfectSquare(int n)
   int result=n+1;
   while (1)
   {
-    for (int i=0;i<=result;i++)
+    for (int i=0;i*i<=result;i++)
     {
       if (result==i*i)
         return result;
@@ -24,5 +24,11 @@ int main()
   cout<<nextPerfectSquare(36)<<endl;//49
   cout<<nextPerfectSquare(0)<<endl;//1
   cout<<nextPerfectSquare(-5)<<endl;//0
+  /*
+   9
+   49
+   1
+   0
+   */
   return 0;
 }
