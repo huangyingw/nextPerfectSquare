@@ -25,10 +25,10 @@ int main()
   cout<<nextPerfectSquare(0)<<endl;//1
   cout<<nextPerfectSquare(-5)<<endl;//0
   /*
-   9
-   49
-   1
-   0
-   */
+     9
+     49
+     1
+     0
+     */
   return 0;
 }
